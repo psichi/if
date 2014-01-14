@@ -1,0 +1,15 @@
+{
+  "name": "if",
+  "description": "Parse an if expression allowing a limited set of values",
+  "author": "Rob Halff <rob.halff@gmail.com>",
+  "version": "0.0.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhalff/if.git"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "main": "if"
+}
