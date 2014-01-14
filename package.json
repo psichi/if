@@ -1,15 +1,18 @@
 {
   "name": "iffi",
+  "version": "0.0.3",
   "description": "Parse an if expression allowing a limited set of values",
-  "author": "Rob Halff <rob.halff@gmail.com>",
-  "version": "0.0.2",
-  "license": "MIT",
+  "main": "if.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psichi/iffi.git"
+    "url": "git://github.com/psichi/iffi.git"
   },
-  "engines": {
-    "node": ">=0.6.0"
-  },
-  "main": "if"
+  "author": "Rob Halff <rob.halff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psichi/iffi/issues"
+  }
 }
