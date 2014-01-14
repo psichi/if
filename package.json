@@ -1,12 +1,12 @@
 {
-  "name": "if",
+  "name": "iffi",
   "description": "Parse an if expression allowing a limited set of values",
   "author": "Rob Halff <rob.halff@gmail.com>",
   "version": "0.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psichi/if.git"
+    "url": "https://github.com/psichi/iffi.git"
   },
   "engines": {
     "node": ">=0.6.0"

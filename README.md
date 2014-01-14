@@ -1,9 +1,9 @@
-IF
+IFFI
 ===
 
 Usage:
 
-var IF = require('if');
+var IF = require('iffi');
 
 ```javascript
 var val = {
