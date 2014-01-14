@@ -44,7 +44,9 @@ function parseExpr(expr, vars) {
          if(numberRE.test(bit) ||
          isQuotedString(bit) ||
          isBoolean(bit) ||
-         bit === 'typeof'
+         bit === 'typeof' ||
+         bit === 'undefined' ||
+         bit === 'null'
          ) {
            code.push(bit);
          } else if(validVar(bit, keys)) {
