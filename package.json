@@ -14,5 +14,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/psichi/iffi/issues"
+  },
+  "devDependencies": {
+    "should": "2.x.x"
   }
 }

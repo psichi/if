@@ -17,8 +17,10 @@ var TRIM_RE = /^\s+|\s+$/g;
 function validVar(bit, keys) {
   var r;
 
+  console.log('valid var', bit, keys);
+
   for(var i = 0; i < keys.length; i++) {
-    r = new RegExp('^' + keys[i] + '[\.$]')
+    r = new RegExp('^' + keys[i] + '(\.|$)')
     if(r.test(bit)) {
       return true;
     }
@@ -62,6 +64,8 @@ function parseExpr(expr, vars) {
      }
   }
   code.push('); }');
+
+  console.log(code);
 
   try {
     var func = new Function(code.join(' '))();
