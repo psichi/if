@@ -1,3 +1,13 @@
+/**
+ * 
+ * Modified version of the If logic used in DomBuilder
+ * 
+ * Copyright (c) 2011, Jonathan Buchanan
+ * 
+ * https://github.com/insin/DOMBuilder/blob/master/lib/dombuilder/template.js#L732-L775
+ * 
+ */
+
 var ops = '( ) && || == === <= < >= > != !== !! !'.split(' '),
    opsRE = /(\(|\)|&&|\|\||={2,3}|<=|<|>=|>|!={1,2}|!{1,2})/,
    numberRE = /^-?(?:\d+(?:\.\d+)?|(?:\d+)?\.\d+)$/,
