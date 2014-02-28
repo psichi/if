@@ -1,6 +1,6 @@
 {
   "name": "iffi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Parse an if expression allowing a limited set of values",
   "main": "if.js",
   "scripts": {
@@ -16,6 +16,8 @@
     "url": "https://github.com/psichi/iffi/issues"
   },
   "devDependencies": {
-    "should": "2.x.x"
+    "should": "2.x.x",
+    "grunt": "0.x.x",
+    "grunt-release": "0.x.x"
   }
 }
