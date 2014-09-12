@@ -4,7 +4,7 @@
   "description": "Parse an if expression allowing a limited set of values",
   "main": "if.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
