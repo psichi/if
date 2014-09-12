@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rhalff/iffi.png)](https://travis-ci.org/rhalff/iffi)
+[![Build Status](https://travis-ci.org/psichi/iffi.png)](https://travis-ci.org/psichi/iffi)
 
 IFFI
 ===
